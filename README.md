@@ -1,7 +1,7 @@
 # rpi_docker_and_nextcloud_install
 installation script for docker and nextcloud (raspberry pi)
 
-1. download repository and unzip 
+1. download or git clone repository and unzip 
 
 2. Open a terminal and give execution rights
 
