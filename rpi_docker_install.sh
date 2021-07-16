@@ -115,8 +115,8 @@ sudo docker run hello-world
 #docker composer
 echo -e "${bg_purple}  ----------> Docker-Composer <----------  ${reset}"
 ## install docker composer on raspi
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo apt install python3-venv python3-pip
+pip install docker-compose
 if [ $? -ne 0 ]
 then
   echo -e "${bg_red}  cannot instal docker composer  ${reset}"
