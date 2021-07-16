@@ -10,4 +10,5 @@ bash rpi_docker_install.sh
 echo -e "${bg_purple}  ----------> download nextcloud <----------  ${reset}"
 cd ~
 git clone https://github.com/nextcloud/docker.git nextcloud
+echo -e "${bg_purple}  ----------> you're all done, reboot incoming <----------  ${reset}"
 sudo reboot
