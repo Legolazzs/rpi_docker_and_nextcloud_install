@@ -13,7 +13,6 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt install git-all
 sudo apt-get install install-info
-git clone git://git.kernel.org/pub/scm/git/git.git
 ```
 2. Open a terminal and give execution rights
 
