@@ -10,9 +10,4 @@ bash rpi_docker_install.sh
 echo -e "${bg_purple}  ----------> download nextcloud <----------  ${reset}"
 cd ~
 git clone https://github.com/nextcloud/docker.git nextcloud
-cd nextcloud/.examples/docker-compose/insecure/postgres/apache
-
-echo -e "${bg_purple}  ----------> start nextcloud <----------  ${reset}"
-docker-compose up -d
-
-echo -e "${bg_red}   you're all done  ${reset}"
+sudo reboot
