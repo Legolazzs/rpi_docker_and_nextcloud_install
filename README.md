@@ -24,3 +24,8 @@ chmod +x main_install.sh
 ```
 ./main_install.sh
 ```
+4. After finishing with main_install.sh and rebooting, start nextcloud:
+```
+chmod +x start_nextcloud.sh
+./start_nextcloud.sh
+```
