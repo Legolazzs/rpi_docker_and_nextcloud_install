@@ -10,4 +10,3 @@ cd ~/nextcloud/.examples/docker-compose/insecure/postgres/apache
 echo -e "${bg_purple}  ----------> start nextcloud <----------  ${reset}"
 docker-compose up -d
 
-echo -e "${bg_red}   you're all done  ${reset}"
