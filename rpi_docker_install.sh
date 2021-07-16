@@ -122,6 +122,3 @@ then
   echo -e "${bg_red}  cannot instal docker composer  ${reset}"
 exit 1;
 fi
-## Docker Composer verification test
-docker-compose --version
-echo -e "${bg_purple}  done!  ${reset}"
