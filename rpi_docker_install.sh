@@ -123,5 +123,5 @@ then
 exit 1;
 fi
 ## Docker Composer verification test
-sudo docker-compose --version
+docker-compose --version
 echo -e "${bg_purple}  done!  ${reset}"
