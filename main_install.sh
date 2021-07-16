@@ -19,4 +19,4 @@ git clone https://github.com/nextcloud/docker.git nextcloud
 cd nextcloud/.examples/docker-compose/insecure/postgres/apache
 
 echo -e "${bg_purple}  ----------> start nextcloud <----------  ${reset}"
-docker-compose up 
+sudo docker-compose up 
