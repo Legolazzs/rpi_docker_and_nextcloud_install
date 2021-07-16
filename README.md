@@ -7,6 +7,14 @@ installation script for docker and nextcloud (raspberry pi)
 git clone https://github.com/Legolazzs/rpi_docker_and_nextcloud_install.git
 cd rpi_docker_and_nextcloud_install.git
 ```
+if you dont have git installed yet, do so
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install git-all
+sudo apt-get install install-info
+git clone git://git.kernel.org/pub/scm/git/git.git
+```
 2. Open a terminal and give execution rights
 
 ```
